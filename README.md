@@ -1,20 +1,18 @@
 # [Aphex Workshop] NextJS SSRF Vulnerability (CVE-2024-34351)
 
-## Develop
+## Public App
 
 ```sh
-docker run --rm -d -p 27017:27017 mongo
-npm run dev
+npm install
+npm run build
+npm start
+
 ```
 
-## Build
+## Exploit Server
 
 ```sh
-docker compose build
-```
+pip install -r requirements.txt
+python main.py
 
-## Run
-
-```sh
-docker compose up
 ```
