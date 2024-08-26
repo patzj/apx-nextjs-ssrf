@@ -9,6 +9,15 @@ npm start
 
 ```
 
+## Private App
+
+```sh
+npm install
+npm run build
+npm start
+
+```
+
 ## Exploit Server
 
 ```sh
